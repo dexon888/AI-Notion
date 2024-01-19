@@ -7,7 +7,7 @@ import Provider from '@/components/Provider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'AI Notion',
+  title: 'NeuroMosaic',
 }
 
 export default function RootLayout({
