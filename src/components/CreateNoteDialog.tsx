@@ -40,6 +40,7 @@ const CreateNoteDialog = (props: Props) => {
         createNotebook.mutate(undefined, {
             onSuccess: ({note_id}) => {
                 console.log("created new note_id:", {note_id})
+                //Upload the note_id, then take the Dall-E image into the Firebase storage
                 uploadToFirebase.mutate(note_id)
                 router.push(`/notebook/${note_id}`);
             },
