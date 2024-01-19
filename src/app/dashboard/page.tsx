@@ -28,7 +28,7 @@ const DashboardPage = async (props: Props) => {
             <div className="flex justify-between items-center md:flex-row flex-col">
                 <div className="flex items-center">
                     <Link href="/">
-                        <Button className="bg-green-600" size="sm">
+                        <Button className="bg-blue-600" size="sm">
                             <ArrowLeft className="mr-1 w-4 h-4"/>
                             Back
                         </Button>
